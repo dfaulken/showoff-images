@@ -3,6 +3,14 @@
 showoff-images is an extension of [showoff](https://github.com/puppetlabs/showoff)
 for quickly making presentations consisting just of a series of up to 100 images.
 
+# Installation
+
+You'll need ImageMagick for the `rmagick` gem to work. Showoff doesn't require it,
+but we do here for the image resizing.
+
+Pretty much all package managers have one called `imagemagick`.
+I use Homebrew so I can't personally attest to much else.
+
 # Usage
 
 Assuming the correct Ruby version, place .png images in the `img` directory, and run:

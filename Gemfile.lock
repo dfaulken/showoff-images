@@ -20,6 +20,7 @@ GEM
     rack-protection (1.5.3)
       rack
     redcarpet (3.3.4)
+    rmagick (2.15.4)
     showoff (0.11.2)
       gli (>= 1.3.2)
       htmlentities
@@ -48,6 +49,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  rmagick
   showoff
 
 BUNDLED WITH
