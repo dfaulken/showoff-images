@@ -11,6 +11,18 @@ Assuming the correct Ruby version, place .png images in the `img` directory, and
 
 A slide will be created for each image, in alphabetical order.
 
+Then you can run the showoff server:
+
+> bundle exec showoff serve
+
+And connect to it at `http://localhost:9090`.
+
+# Contributing
+
+Contributions are welcome! There's lots of places this could be improved.
+
+Feel free to open issues, make pull requests, all the usual stuff.
+
 # Attributions
 
 Thanks to puppetlabs for making [showoff](https://github.com/puppetlabs/showoff) public.

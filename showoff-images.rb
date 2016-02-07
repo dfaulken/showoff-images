@@ -1,7 +1,11 @@
-require 'fileutils'
+require 'date'
 
 # Put today's date in the intro slide.
-
+File.open 'intro/01.md', 'w' do |f|
+  f.puts '!SLIDE'
+  f.puts '# Code review'
+  f.puts "## #{Date.today.strftime '%F'}"
+end
 
 # Remove existing markdown files from main/.
 Dir.glob('main/*.md').each do |markdown_filepath|
