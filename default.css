@@ -1,0 +1,10 @@
+body, .slide{
+  background-color: black;
+  color: white;
+}
+
+.slide img{
+  border: 3px solid #d0982f;
+  border-radius: 5px;
+  height: 100%;
+}
