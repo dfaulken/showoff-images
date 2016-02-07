@@ -17,9 +17,13 @@ Then you can run the showoff server:
 
 And connect to it at `http://localhost:9090`.
 
+# Configuration
+
+You can edit the presentation title or date format in `config.json`.
+
 # Contributing
 
-Contributions are welcome! There's lots of places this could be improved.
+Contributions are welcome! Theres lots of places this could be improved.
 
 Feel free to open issues, make pull requests, all the usual stuff.
 
