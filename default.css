@@ -3,6 +3,10 @@ body, .slide{
   color: white;
 }
 
+.content.full-page {
+  margin-top: 10%;
+}
+
 .slide img{
   border: 3px solid #d0982f;
   border-radius: 5px;
