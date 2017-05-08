@@ -1,4 +1,4 @@
-#showoff-images
+# showoff-images
 
 showoff-images is an extension of [showoff](https://github.com/puppetlabs/showoff)
 for quickly making presentations consisting just of a series of up to 100 images.
